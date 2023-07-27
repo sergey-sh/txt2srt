@@ -89,7 +89,7 @@ def transcribe_txt2srt(file_input, file_output, max_length_text):
 
 
 def usage_help():
-    print('Utility for  convert text file to srt file', file=sys.stderr)
+    print('Utility for convert transcribed text file to srt file', file=sys.stderr)
     print('Text file format:', file=sys.stderr)
     print('MM:SS', file=sys.stderr)
     print('text ... text', file=sys.stderr)
